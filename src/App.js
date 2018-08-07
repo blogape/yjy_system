@@ -1,22 +1,23 @@
 import React, { Component } from "react";
-import "./App.css";
+// import "./App.less";
 import { Button } from "antd";
+// import './1.css';
 import "antd/dist/antd.css";
-import { doubanbook } from "./api/api.js";
+// import { doubanbook } from "./api/api.js";
 
 class App extends Component {
   constructor(props) {
     super(props);
   }
   handleClick() {
-    let result = doubanbook();
-    result
-      .then(res => {
-        console.log(res);
-      })
-      .catch(err => {
-        console.log(err);
-      });
+    // let result = doubanbook();
+    // result
+    //   .then(res => {
+    //     console.log(res);
+    //   })
+    //   .catch(err => {
+    //     console.log(err);
+    //   });
   }
   render() {
     return (
